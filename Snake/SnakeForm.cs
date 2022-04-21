@@ -2,7 +2,7 @@ using System.Collections;
 
 namespace Snake
 {
-    public partial class Form1 : Form
+    public partial class SnakeForm : Form
     {
         private Hashtable keys;
         int speed = 20;
@@ -37,7 +37,7 @@ namespace Snake
         Random rr = new Random();
 
 
-        public Form1()
+        public SnakeForm()
         {
             InitializeComponent();
             for (int i = 110; i < 160; i += 20)
